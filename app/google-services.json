@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "326894036188",
+    "project_id": "apartalk-fcm",
+    "storage_bucket": "apartalk-fcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326894036188:android:9ba845ad774861659fc019",
+        "android_client_info": {
+          "package_name": "com.apartalk.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326894036188-muvu1dn6nr1obmpq8f2qcso9dr3u8u78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3oSFs1-0fRRPIC_MtoLIV4qEe-bxgHE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326894036188-muvu1dn6nr1obmpq8f2qcso9dr3u8u78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
