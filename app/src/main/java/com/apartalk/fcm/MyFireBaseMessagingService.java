@@ -26,7 +26,6 @@ public class MyFireBaseMessagingService extends FirebaseMessagingService {
             sendNotification(remoteMessage.getNotification().getBody(), remoteMessage.getNotification().getTitle());
         }else if (remoteMessage.getData().size() > 0) {                           //백그라운드
             sendNotification(remoteMessage.getData().get("body"), remoteMessage.getData().get("title"));
-            /* 백그라운드 작동 내용 */
         }
     }
 
