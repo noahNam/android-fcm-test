@@ -22,6 +22,8 @@ public class MyFireBaseMessagingService extends FirebaseMessagingService {
     }
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
+        Log.d("FCM Log", "data " + remoteMessage.getData());
+        Log.d("FCM Log", "notification " + remoteMessage.getNotification());
         if (remoteMessage.getNotification() != null) {                      //포어그라운드
             sendNotification(remoteMessage.getNotification().getBody(), remoteMessage.getNotification().getTitle());
         }else if (remoteMessage.getData().size() > 0) {                           //백그라운드
